@@ -1,7 +1,7 @@
 from flask import Blueprint, request, jsonify, current_app, Response
 from flask_restful import Api, Resource # used for REST API building
 
-from model.titanic import TitanicRegression
+from model.titanics import TitanicRegression
 
 titanic_api = Blueprint('titanic_api', __name__,
                    url_prefix='/api/titanic')
