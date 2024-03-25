@@ -81,7 +81,7 @@ class TitanicRegression:
         self.logreg = LogisticRegression()
         self.logreg.fit(self.X_train, self.y_train)
 
-        # passenger = passenger["passenger"]
+        passenger = passenger["passenger"]
         passenger = list(passenger.values())
 
         passenger = pd.DataFrame(
